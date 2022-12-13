@@ -3,7 +3,7 @@ description: 'Generate short SHA'
 outputs:
   short-sha:
     description: 'The generated short SHA'
-    value: ${{ steps.short-sha.outputs.short-sha }}
+    value: ${{ steps.short-sha.outputs.short_sha }}
 runs:
   using: composite
   steps:
