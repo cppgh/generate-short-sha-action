@@ -1,8 +1,8 @@
 name: Generate short SHA
-description: ''
+description: 'Generate short SHA'
 outputs:
   short-sha:
-    description: ''
+    description: 'The generated short SHA'
     value: ${{ steps.short-sha.outputs.short-sha }}
 runs:
   using: composite
